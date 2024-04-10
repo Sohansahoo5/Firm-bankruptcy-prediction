@@ -3,7 +3,7 @@
 Firm collapse prediction has been a subject of interest for almost a century and it still ranks high among the hottest topics in economics. The aim of predicting financial distress is to develop a predictive model that combines various econometric measures and allows one to foresee a financial condition of a firm. The purpose of bankruptcy prediction is to assess the financial condition of a company and its future perspectives within the context of longterm operation on the market.
 
 # Methodology Overview:
-# 1.Data Preparation:
+# Data Preparation:
 
 The dataset includes attributes like net profit, total liabilities, working capital, and many others, alongside a binary response variable indicating bankruptcy status. Missing values are imputed with the median of each column. Outliers are identified and removed based on z-scores. The dataset is split into training and testing sets, with upsampling applied to the training set to address class imbalance using SMOTE.
 
